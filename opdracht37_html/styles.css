@@ -11,25 +11,24 @@ body{
 }
 
 .navbar ul{
-    padding-top: 15px;
     overflow: hidden;
     visibility: hidden;
+    margin-left: -50px;
+    
 }
 
 .navbar ul li{
     line-height: 60px;
     list-style: none;  
+    margin-top: 3px;
+    
  }
  
 
 .navbar ul li a{
    display: block;
    width: 250px;
-   height: 60px;
-   margin-left: -50px;
-   margin-top: 2px;
    padding: 0 10px;
-   text-align: left;
    text-decoration: none;
    color: black;
    font-size: 15px;

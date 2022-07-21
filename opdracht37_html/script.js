@@ -11,7 +11,7 @@ let toggleNav = function() {
 
     if (toggleNavStatus === false){
         getNavbarUl.style.visibility = "visible";
-        getNavbar.style.opacity = "0.5";
+        getNavbar.style.opacity = "1";
     
         let arrayLength = getNavbarLinks.length;
         for (let i = 0; i < arrayLength; i++){
