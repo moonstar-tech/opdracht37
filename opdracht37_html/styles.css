@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(241, 229, 229);
+}
+
+.menu{
+  
+    color: black;
+    font-size: 70px;
+    position: relative;
+    
+}
+
+.navbar ul{
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.navbar ul li{
+    line-height: 60px;
+    list-style: none;  
+ }
+ 
+
+.navbar ul li a{
+   display: block;
+   width: 250px;
+   height: 60px;
+   margin-left: -50px;
+   margin-top: 2px;
+   padding: 0 10px;
+   text-align: left;
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   white-space: nowrap;
+  
+}
+
+.home{
+    background-color:  rgb(228, 220, 220) ;
+    
+}
+.red{
+    background-color: red; 
+    
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+
