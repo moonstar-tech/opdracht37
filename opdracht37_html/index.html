@@ -9,24 +9,28 @@
   <script defer src="https://javascript.info/article/script-async-defer/long.js?speed=2"></script>
   <script defer src="script.js"></script>
   <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/95db59f012.js" crossorigin="anonymous"></script>
-  
 </head>
 
 <body>
-    <div class="menu" onclick="toggleNav()">
-        <i class="fa-solid fa-bars"></i>
-  
-    <nav class="navbar" >
-        <ul>
-            <li><a href="#" class="home">home</a></li>
-            <li><a href="#" class="red">red</a></li>
-            <li><a href="#" class="orange">orange</a></li>
-            <li><a href="#" class="purple">purple</a></li>
-            <li><a href="#" class="green">green</a></li>
+   
+
+
+    <div class="nav-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#" onclick="changeBodyBg('rgb(228, 220, 220)');" class="home">Home</a></li>
+            <li class="nav-item"><a href="#" onclick="changeBodyBg('red');" class="red">red</a></li>
+            <li class="nav-item"><a href="#" onclick="changeBodyBg('orange');" class="orange">orange</a></li>
+            <li class="nav-item"><a href="#" onclick="changeBodyBg('purple');" class="purple">purple</a></li>
+            <li class="nav-item"><a href="#" onclick="changeBodyBg('green');" class="green">green</a></li>
         </ul>
     </nav>
-</div>
+
+ 
 </body>
 
 </html>
